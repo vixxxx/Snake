@@ -193,9 +193,15 @@ def gameover2():
 def game_loop():
     global direction,lvl
     global snakeLenght
+    global FPS
     global ws
+    global level
     global paused
     global hs
+    #FPS
+    FPS=15
+    #level
+    level=1
     #snake(outside while not difining everytime)
     snakeList=[]
     #snakeLenght
