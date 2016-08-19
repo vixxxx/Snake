@@ -1,3 +1,2 @@
 @echo off
-python C:\Users\User-PC\Desktop\snake\snake.py %*
-pause
+python snake.py %*
