@@ -49,7 +49,7 @@ gameDisplay.fill(white)
 #update our Frame
 pygame.display.update()
 #add caption to our Frame
-pygame.display.set_caption('App')
+pygame.display.set_caption('Snake v1.0')
 #update the entire service
 gameExit=False
 #speed of the block when going left or right
